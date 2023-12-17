@@ -1,5 +1,6 @@
 const formulario = document.querySelector("form");
 const Inome = document.querySelector(".nome");
+const Iusername = document.querySelector(".username");
 const Iemail = document.querySelector(".email");
 const Isenha = document.querySelector(".senha"); 
 
@@ -25,6 +26,7 @@ function cadastrar() {
 
 function limpar () {
     Inome.value = "";
+    Iusername.value = "";
     Iemail.value = "";
     Isenha.value = "";
 };
