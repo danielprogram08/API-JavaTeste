@@ -1,13 +1,13 @@
-package br.com.criandoapi.projeto;
+package br.com.projetoAPI.ProjetoAPI;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ProjetoApplication {
+public class ProjetoApiApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ProjetoApplication.class, args);
+		SpringApplication.run(ProjetoApiApplication.class, args);
 	}
 
 }
